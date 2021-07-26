@@ -72,7 +72,7 @@ def getDifference(dt1, dt2):
     # two counts
     return n2 - n1
 
-
+# (Rev) This function return the days from datestart to datenow
 def getDays():
     date = dt.datetime.now().date()
     day = date.day
